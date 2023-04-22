@@ -12,9 +12,17 @@ window.onscroll = () => {
 };
 
 var swiper = new Swiper(".home-slider", {
+
     loop: true,
     spaceBetween: 20,
     grabCursor: true,
+    // mousewheel: true,
+    // effect: "coverflow",
+
+    autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -22,16 +30,23 @@ var swiper = new Swiper(".home-slider", {
 });
 
 var swiper = new Swiper(".service-slider", {
-    // slidesPerView: 1,
-    loop: true,
+
+    slidesPerView: 3,
     spaceBetween: 20,
+    loop: true,
     grabCursor: true,
+    mousewheel:true,
+    
+    autoplay:{
+        delay:6500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
     breakpoints: {
-        450: {
+        0: {
             slidesPerView: 1,
         },
         768: {
@@ -44,15 +59,23 @@ var swiper = new Swiper(".service-slider", {
 });
 
 var swiper = new Swiper(".reviews-slider", {
+
+    slidesPerView: 3,
     loop: true,
     spaceBetween: 30,
     grabCursor: true,
+    mousewheel: true,
+
+    autoplay:{
+        delay: 5500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
     breakpoints: {
-        450: {
+        0: {
             slidesPerView: 1,
         },
         768: {

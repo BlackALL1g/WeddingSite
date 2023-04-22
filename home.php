@@ -24,9 +24,9 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide slide" style="background:url(images/home-slide-3.3.jpg)    no-repeat">
             <div class="content">
-                <h3>plan your wedding</h3>
-                <p>Between venue tours and cake tastings, it's easy to forget about the little details when wedding planning (like lighting and signage). Don't stress though. Get inspired by our tips and tricks for some of the most looked-over wedding planning details</p>
-                <a href="about.php" class="btn">discover more</a>
+            <h3>plan your wedding</h3>
+            <p>Between venue tours and cake tastings, it's easy to forget about the little details when wedding planning (like lighting and signage). Don't stress though. Get inspired by our tips and tricks for some of the most looked-over wedding planning details</p>
+            <a href="about.php" class="btn">discover more</a>
             </div>
         </div>
         <div class="swiper-slide slide" style="background:url(images/home-slide-1.1.jpg) no-repeat">

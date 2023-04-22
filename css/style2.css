@@ -136,7 +136,8 @@ section{
    box-shadow: var(--box-shadow);
    text-align: center;
    padding:2rem;
-   width:50rem;
+   /* align-items: end; */
+   /* width:50rem; */
 }
 
 .home .slide .content h3{
